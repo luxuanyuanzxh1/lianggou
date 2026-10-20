@@ -1,0 +1,30 @@
+# QuantWeave 全栈回测台 —— 一条命令起全套
+#   docker compose up -d --build
+#   http://localhost:3100/backtest
+#
+# 只用 3100 一个端口：Next.js 的 rewrites 把 /api/v1/* 反代到容器内的 FastAPI(:8767)
+
+services:
+  quantweave:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      # 海外构建请把下面两行的注释打开
+      # args:
+      #   NPM_SOURCE: npmjs
+      #   PIP_INDEX: https://pypi.org/simple
+    image: quantweave:20261020
+    container_name: quantweave
+    ports:
+      - "3100:3100"      # Web 入口（唯一需要暴露的端口）
+      # - "8767:8767"    # 想直接调后端 API 再开这个
+    environment:
+      QW_DATA_DIR: /app/data
+      TZ: Asia/Shanghai
+    volumes:
+      # 挂载宿主机 data/ 覆盖镜像内置库，方便换库而不用重新 build
+      # 不需要的话把这两行删掉即可，镜像里已内置同一份数据
+      - ./data:/app/data
+      # 回测结果落盘目录（容器删了结果还在）
+      - ./work:/app/work
+    restart: unless-stopped

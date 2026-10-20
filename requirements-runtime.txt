@@ -1,0 +1,12 @@
+# 容器运行期依赖：只保留回测/接口真正需要的包
+# 不装 pytdx（数据抓取）、scikit-learn（实验功能），镜像体积可省约 120MB
+backtrader==1.9.78.123
+duckdb>=1.4,<2
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+numpy>=1.26,<3
+pandas>=2.0,<3
+pydantic>=2.10,<3
+requests>=2.32,<3
+scipy>=1.12,<2
+pyarrow>=16,<22

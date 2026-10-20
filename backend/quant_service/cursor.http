@@ -1,0 +1,17 @@
+### 查看策略（Cursor REST Client 可直接执行）
+GET http://127.0.0.1:8766/api/v1/strategies
+
+### 列出选股策略
+GET http://127.0.0.1:8766/api/v1/screeners
+
+### 历史日期选股
+POST http://127.0.0.1:8766/api/v1/screens
+Content-Type: application/json
+
+{"strategy_id":"zettaranc_b1_discipline","date":"2026-07-10","universe":"沪深京","limit":100,"params":{}}
+
+### 运行恒生电子双均线案例
+POST http://127.0.0.1:8766/api/v1/backtests
+Content-Type: application/json
+
+{"strategy_id":"ma_cross","code":"600570","capital":1000000,"commission":0.0003,"slippage":0.0001,"params":{"fast":10,"slow":30}}

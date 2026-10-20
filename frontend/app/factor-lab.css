@@ -1,0 +1,901 @@
+.factor-lab-shell{color:#cbd6dc;background:#090f13;min-height:calc(100vh - 54px)}.factor-lab-header{background:#0e171d;border-bottom:1px solid #26333c;align-items:center;gap:18px;min-height:84px;padding:12px 16px;display:flex}.factor-lab-header>div:first-child{margin-right:auto}.factor-lab-header span,.factor-lab-header p{color:#6f818c}.factor-lab-header span{letter-spacing:.14em;font-size:9px}.factor-lab-header h1{margin:3px 0 2px;font-size:21px}.factor-lab-header p{margin:0;font-size:10px}.factor-lab-header-actions{gap:8px;display:flex}.factor-lab-header-actions button,.factor-lab-add{color:#aebcc4;cursor:pointer;background:#132027;border:1px solid #344650;border-radius:4px;height:32px;padding:0 12px}.factor-lab-header-actions button.primary{color:#e4f1f8;background:#1d4763;border-color:#3d7294}.factor-lab-header-actions button:disabled,.factor-lab-add:disabled{opacity:.45;cursor:not-allowed}.factor-lab-layout{grid-template-columns:280px minmax(600px,1fr) 250px;min-height:calc(100vh - 138px);display:grid}.factor-lab-config,.factor-lab-model{background:#0d151a;padding:10px 11px;overflow:auto}.factor-lab-config{border-right:1px solid #26333b}.factor-lab-model{border-left:1px solid #26333b}.factor-lab-main{min-width:0;padding-bottom:24px}.factor-lab-section-title{border-bottom:1px solid #24313a;align-items:center;height:34px;margin-top:7px;display:flex}.factor-lab-section-title:first-child{margin-top:0}.factor-lab-section-title b{margin-right:auto}.factor-lab-section-title span,.factor-lab-section-title button{color:#687984;font-size:9px}.factor-lab-section-title button{cursor:pointer;background:0 0;border:0}.factor-lab-config label,.factor-lab-model label{color:#778892;gap:4px;margin-top:8px;font-size:9px;display:grid}.factor-lab-config input,.factor-lab-config select,.factor-lab-config textarea,.factor-lab-model input,.factor-lab-model select{box-sizing:border-box;color:#c5d0d6;background:#091116;border:1px solid #2e3f49;border-radius:3px;outline:none;width:100%;min-height:30px;padding:5px 7px}.factor-lab-config textarea{resize:vertical;min-height:58px}.factor-lab-config input:focus,.factor-lab-config select:focus,.factor-lab-config textarea:focus,.factor-lab-model input:focus,.factor-lab-model select:focus{border-color:#4d86a9}.factor-lab-config label small,.factor-lab-model label small{color:#60717c}.factor-lab-two{grid-template-columns:1fr 1fr;gap:8px;display:grid}.factor-lab-switch{align-items:center;padding:7px 0;grid-template-columns:16px 1fr!important;gap:7px!important}.factor-lab-switch input{margin:0;width:14px!important;min-height:14px!important}.factor-lab-family{margin-top:8px}.factor-lab-family>b{color:#667985;margin-bottom:4px;font-size:9px;display:block}.factor-lab-family label{cursor:pointer;border-left:2px solid #0000;grid-template-columns:16px 1fr;align-items:start;padding:6px 5px;gap:6px!important;margin:0!important;display:grid!important}.factor-lab-family label:hover,.factor-lab-family label.selected{background:#12232c;border-left-color:#4d8db4}.factor-lab-family label input{margin-top:2px;width:13px!important;min-height:13px!important}.factor-lab-family label strong,.factor-lab-family label small{display:block}.factor-lab-family label strong{color:#b7c4ca;font-size:10px}.factor-lab-family label small{color:#5e707a;margin-top:2px;font-size:8px}.factor-lab-weights{background:#101b21;margin-top:8px;padding:7px}.factor-lab-weights>b{font-size:9px}.factor-lab-weights label{grid-template-columns:minmax(0,1fr) 62px;align-items:center;margin-top:5px!important}.factor-lab-weights input{text-align:right}.factor-lab-add{width:100%;margin-top:8px}.factor-lab-custom-row{background:#111e25;align-items:center;gap:6px;margin-top:6px;padding:6px 7px;display:flex}.factor-lab-custom-row span{min-width:0;margin-right:auto}.factor-lab-custom-row b,.factor-lab-custom-row small{text-overflow:ellipsis;white-space:nowrap;display:block;overflow:hidden}.factor-lab-custom-row small{color:#667985;margin-top:2px}.factor-lab-custom-row button{color:#82929b;cursor:pointer;background:0 0;border:0}.factor-lab-tabs{background:#0d161c;border-bottom:1px solid #26343d;align-items:end;gap:2px;height:43px;padding:0 12px;display:flex}.factor-lab-tabs button{color:#74858f;cursor:pointer;background:0 0;border:0;border-bottom:2px solid #0000;height:34px;padding:0 12px}.factor-lab-tabs button.active{color:#d5e0e5;border-bottom-color:#4d91bb}.factor-lab-content{gap:10px;padding:12px;display:grid}.factor-lab-content>section{background:#0e171d;border:1px solid #26343d;min-width:0}.factor-lab-panel-head{border-bottom:1px solid #24313a;align-items:center;gap:10px;min-height:44px;padding:0 12px;display:flex}.factor-lab-panel-head b{margin-right:auto}.factor-lab-panel-head span{color:#667985;font-size:9px}.factor-lab-kpis{grid-template-columns:repeat(3,1fr);gap:8px;display:grid}.factor-lab-kpis article{background:#101a20;border:1px solid #283740;padding:10px 12px}.factor-lab-kpis span,.factor-lab-kpis b,.factor-lab-kpis small{display:block}.factor-lab-kpis span{color:#6d7e88;font-size:9px}.factor-lab-kpis b{margin-top:5px;font-size:22px}.factor-lab-kpis small{color:#6c7d87;margin-top:4px}.factor-lab-legend{color:#74858f;justify-content:flex-end;gap:14px;padding:8px 14px 0;font-size:9px;display:flex}.factor-lab-legend span{align-items:center;gap:5px;display:flex}.factor-lab-legend i{width:14px;height:2px}.factor-lab-legend .series-1{background:#5aa2d0}.factor-lab-legend .series-2{background:#d7a64c}.factor-lab-equity,.factor-lab-ic{width:100%;height:auto;display:block}.factor-lab-equity line,.factor-lab-ic line{stroke:#27363f;stroke-width:1px}.factor-lab-equity text,.factor-lab-ic text{fill:#647680;font-size:9px}.factor-lab-equity polyline{stroke-width:1.7px}.factor-lab-equity polyline.series-1{stroke:#5aa2d0}.factor-lab-equity polyline.series-2{stroke:#d7a64c}.factor-lab-ic polyline{stroke:#66a8d1;stroke-width:1.3px}.factor-lab-ic line.zero{stroke:#60727d}.factor-lab-empty-chart{color:#63747f;place-items:center;min-height:180px;display:grid}.factor-lab-notes{background:#26343d;grid-template-columns:repeat(2,1fr);gap:1px;display:grid}.factor-lab-notes div{background:#0f181e;padding:9px 11px}.factor-lab-notes b,.factor-lab-notes span{display:block}.factor-lab-notes b{color:#6e808b;font-size:8px}.factor-lab-notes span{margin-top:3px;font-size:10px}.factor-lab-table-wrap{overflow:auto}.factor-lab-table-wrap table{border-collapse:collapse;width:100%;min-width:760px}.factor-lab-table-wrap th,.factor-lab-table-wrap td{text-align:right;white-space:nowrap;border-bottom:1px solid #202d35;padding:8px 9px}.factor-lab-table-wrap th{color:#687a85;background:#111c22;font-size:9px;position:sticky;top:0}.factor-lab-table-wrap th:first-child,.factor-lab-table-wrap td:first-child{text-align:left}.factor-lab-table-wrap td{font-size:10px}.factor-lab-table-wrap td b,.factor-lab-table-wrap td small{display:block}.factor-lab-table-wrap td small{color:#61737d;margin-top:2px}.factor-lab-group-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;padding:12px;display:grid}.factor-lab-group-grid article{background:#101a20;padding:9px}.factor-lab-group-grid article>b{margin-bottom:7px;display:block}.factor-lab-group-grid article>div{grid-template-columns:28px 1fr 58px;align-items:center;gap:7px;margin-top:5px;display:grid}.factor-lab-group-grid i,.factor-lab-importance i{background:#23313a;height:6px;overflow:hidden}.factor-lab-group-grid em,.factor-lab-importance em{background:currentColor;height:100%;display:block}.factor-lab-group-grid strong{text-align:right}.factor-lab-corr{align-items:stretch;min-width:620px;padding:12px;display:grid;overflow:auto}.factor-lab-corr>b{color:#71828c;text-align:center;justify-content:center;align-items:center;min-height:38px;font-size:9px;display:flex}.factor-lab-corr>span{background:rgba(77,145,187,var(--corr-opacity));font-variant-numeric:tabular-nums;border:1px solid #17252d;place-items:center;min-height:42px;display:grid}.factor-lab-corr>span.warn{color:#f0c477;box-shadow:inset 0 0 0 1px #c89047}.factor-lab-model-summary{background:#26343d;grid-template-columns:repeat(4,1fr);gap:1px;display:grid}.factor-lab-model-summary div{background:#101a20;padding:9px 11px}.factor-lab-model-summary span,.factor-lab-model-summary b{display:block}.factor-lab-model-summary span{color:#6b7d87;font-size:8px}.factor-lab-model-summary b{margin-top:4px}.factor-lab-importance{padding:11px 13px}.factor-lab-importance>div{grid-template-columns:180px 1fr 56px;align-items:center;gap:8px;margin:7px 0;display:grid}.factor-lab-importance b{text-align:right}.factor-lab-safety{background:#101b21;margin-top:9px;padding:8px}.factor-lab-safety div{color:#71838d;grid-template-columns:8px 1fr;gap:6px;margin:5px 0;font-size:9px;display:grid}.factor-lab-safety i{background:#4e94bd;border-radius:50%;width:5px;height:5px;margin-top:4px}.factor-lab-history>div{border-bottom:1px solid #202d35;grid-template-columns:minmax(0,1fr) auto;gap:3px 8px;padding:7px 2px;display:grid}.factor-lab-history span{min-width:0}.factor-lab-history b,.factor-lab-history small{text-overflow:ellipsis;white-space:nowrap;display:block;overflow:hidden}.factor-lab-history small{color:#60717b;margin-top:3px;font-size:8px}.factor-lab-history strong{align-self:center}.factor-lab-history em{color:#71828c;grid-column:2;font-size:8px;font-style:normal}.factor-lab-history p{color:#63747e}.factor-lab-error{color:#db969b;background:#261719;border:1px solid #70454a;gap:12px;margin:12px;padding:10px 12px;display:flex}.factor-lab-error b{white-space:nowrap}.factor-lab-intro{background:#0e181e;border:1px solid #2a3a44;margin:12px;padding:18px}.factor-lab-intro>div b,.factor-lab-intro>div span{display:block}.factor-lab-intro>div b{font-size:18px}.factor-lab-intro>div span{color:#72848e;margin-top:5px}.factor-lab-intro ol{color:#8b9aa2;grid-template-columns:1fr 1fr;gap:8px 28px;margin:18px 0 0;padding-left:20px;display:grid}.factor-lab-model label small.warn{color:#d7a85c}.up{color:var(--up)!important}.down{color:var(--down)!important}@media (max-width:1280px){.factor-lab-layout{grid-template-columns:260px minmax(560px,1fr)}.factor-lab-model{border-top:1px solid #26333b;border-left:0;grid-column:1/-1;grid-template-columns:repeat(4,1fr);gap:8px;display:grid}.factor-lab-model>.factor-lab-section-title,.factor-lab-model>.factor-lab-safety,.factor-lab-model>.factor-lab-history{grid-column:1/-1}}@media (max-width:860px){.factor-lab-header{align-items:flex-start}.factor-lab-layout{grid-template-columns:1fr}.factor-lab-config,.factor-lab-model{border:0;border-bottom:1px solid #26333b}.factor-lab-kpis,.factor-lab-model-summary,.factor-lab-notes,.factor-lab-intro ol{grid-template-columns:1fr}.factor-lab-tabs{overflow:auto}.factor-lab-tabs button{white-space:nowrap}.factor-lab-model{display:block}}
+
+
+/* Apple-style factor lab. */
+.factor-lab-shell {
+  --factor-bg: #f5f5f7;
+  --factor-surface: rgba(255, 255, 255, 0.76);
+  --factor-line: rgba(60, 60, 67, 0.16);
+  --factor-line-strong: rgba(60, 60, 67, 0.28);
+  --factor-text: #1d1d1f;
+  --factor-muted: #6e6e73;
+  --factor-blue: #007aff;
+  --factor-green: #248a3d;
+  --factor-red: #d70015;
+  background: linear-gradient(180deg, #fbfbfd, #f5f5f7);
+  color: var(--factor-text);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC",
+    "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.factor-lab-header,
+.factor-lab-config,
+.factor-lab-model,
+.factor-lab-content > section,
+.factor-lab-intro,
+.factor-lab-error {
+  border-color: var(--factor-line);
+  background: var(--factor-surface);
+  border-radius: 8px;
+  backdrop-filter: blur(22px) saturate(160%);
+  -webkit-backdrop-filter: blur(22px) saturate(160%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.76) inset,
+    0 12px 32px rgba(0, 0, 0, 0.08);
+}
+
+.factor-lab-shell button,
+.factor-lab-shell input,
+.factor-lab-shell select,
+.factor-lab-shell textarea {
+  font: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.factor-lab-shell button,
+.factor-lab-family label,
+.factor-lab-custom-row,
+.factor-lab-tabs button {
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    transform 120ms ease,
+    box-shadow 160ms ease;
+}
+
+.factor-lab-shell button:active {
+  transform: scale(0.98);
+}
+
+.factor-lab-shell :focus-visible {
+  outline: 3px solid rgba(0, 122, 255, 0.25);
+  outline-offset: 2px;
+}
+
+.factor-lab-header span,
+.factor-lab-header p,
+.factor-lab-section-title span,
+.factor-lab-panel-head span,
+.factor-lab-kpis span,
+.factor-lab-kpis small,
+.factor-lab-notes b,
+.factor-lab-notes span,
+.factor-lab-table-wrap th,
+.factor-lab-table-wrap td small,
+.factor-lab-family label small,
+.factor-lab-model label small,
+.factor-lab-history small,
+.factor-lab-safety div {
+  color: var(--factor-muted);
+}
+
+.factor-lab-header h1,
+.factor-lab-panel-head b,
+.factor-lab-kpis b,
+.factor-lab-group-grid article > b,
+.factor-lab-model-summary b,
+.factor-lab-importance b,
+.factor-lab-history b,
+.factor-lab-intro > div b {
+  color: var(--factor-text);
+}
+
+.factor-lab-header-actions button,
+.factor-lab-add {
+  height: 34px;
+  border: 1px solid var(--factor-line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--factor-text);
+}
+
+.factor-lab-header-actions button.primary {
+  border-color: rgba(0, 122, 255, 0.28);
+  background: var(--factor-blue);
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 122, 255, 0.18);
+}
+
+.factor-lab-config input,
+.factor-lab-config select,
+.factor-lab-config textarea,
+.factor-lab-model input,
+.factor-lab-model select {
+  border: 1px solid var(--factor-line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--factor-text);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.72) inset;
+}
+
+.factor-lab-config input:focus,
+.factor-lab-config select:focus,
+.factor-lab-config textarea:focus,
+.factor-lab-model input:focus,
+.factor-lab-model select:focus {
+  border-color: rgba(0, 122, 255, 0.5);
+  box-shadow:
+    0 0 0 3px rgba(0, 122, 255, 0.14),
+    0 1px 0 rgba(255, 255, 255, 0.72) inset;
+}
+
+.factor-lab-family label,
+.factor-lab-custom-row,
+.factor-lab-kpis article,
+.factor-lab-notes div,
+.factor-lab-group-grid article,
+.factor-lab-model-summary div {
+  border: 1px solid var(--factor-line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.72) inset;
+}
+
+.factor-lab-family label:hover,
+.factor-lab-family label.selected {
+  border-color: rgba(0, 122, 255, 0.28);
+  background: rgba(0, 122, 255, 0.08);
+}
+
+.factor-lab-tabs {
+  background: rgba(255, 255, 255, 0.44);
+  gap: 6px;
+}
+
+.factor-lab-tabs button.active {
+  border-bottom-color: var(--factor-blue);
+  color: #0057b8;
+  font-weight: 600;
+}
+
+.factor-lab-equity line,
+.factor-lab-ic line,
+.factor-lab-table-wrap th,
+.factor-lab-table-wrap td {
+  border-color: var(--factor-line);
+}
+
+.factor-lab-equity text,
+.factor-lab-ic text {
+  fill: var(--factor-muted);
+}
+
+.factor-lab-legend .series-1,
+.factor-lab-legend .series-2,
+.factor-lab-importance i,
+.factor-lab-group-grid em {
+  background: var(--factor-blue);
+}
+
+.factor-lab-kpis small,
+.factor-lab-family label small,
+.factor-lab-model label small,
+.factor-lab-history small {
+  line-height: 1.45;
+}
+
+@media (prefers-color-scheme: dark) {
+  .factor-lab-shell {
+    --factor-bg: #101012;
+    --factor-surface: rgba(28, 28, 30, 0.74);
+    --factor-line: rgba(235, 235, 245, 0.14);
+    --factor-line-strong: rgba(235, 235, 245, 0.24);
+    --factor-text: #f5f5f7;
+    --factor-muted: #a1a1a6;
+    --factor-blue: #0a84ff;
+    --factor-green: #30d158;
+    --factor-red: #ff453a;
+    background: linear-gradient(180deg, #161617, #101012);
+  }
+
+  .factor-lab-config input,
+  .factor-lab-config select,
+  .factor-lab-config textarea,
+  .factor-lab-model input,
+  .factor-lab-model select,
+  .factor-lab-header-actions button,
+  .factor-lab-add {
+    background: rgba(44, 44, 46, 0.68);
+    color-scheme: dark;
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .factor-lab-header,
+  .factor-lab-config,
+  .factor-lab-model,
+  .factor-lab-content > section,
+  .factor-lab-intro,
+  .factor-lab-error {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: #ffffff;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .factor-lab-shell *,
+  .factor-lab-shell *::before,
+  .factor-lab-shell *::after {
+    animation-duration: 1ms !important;
+    transition-duration: 1ms !important;
+  }
+
+  .factor-lab-shell button:active {
+    transform: none;
+  }
+}
+
+/* Apple-style polish for factor lab micro controls. */
+.factor-lab-shell {
+  --factor-control-bg: rgba(255, 255, 255, 0.82);
+  --factor-control-hover: rgba(255, 255, 255, 0.96);
+  --factor-chip-bg: rgba(120, 120, 128, 0.11);
+}
+
+.factor-lab-header {
+  margin: 10px;
+}
+
+.factor-lab-layout {
+  gap: 10px;
+  padding: 0 10px 10px;
+}
+
+.factor-lab-config,
+.factor-lab-model {
+  border: 1px solid var(--factor-line);
+}
+
+.factor-lab-section-title {
+  border-color: var(--factor-line);
+}
+
+.factor-lab-section-title button {
+  min-height: 26px;
+  padding: 0 8px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  color: var(--factor-muted);
+}
+
+.factor-lab-section-title button:hover {
+  border-color: var(--factor-line);
+  background: var(--factor-chip-bg);
+}
+
+.factor-lab-family {
+  display: grid;
+  gap: 6px;
+}
+
+.factor-lab-family > b {
+  color: var(--factor-muted);
+  font-weight: 600;
+}
+
+.factor-lab-family label {
+  min-height: 58px;
+  border-left: 1px solid var(--factor-line);
+  padding: 8px;
+}
+
+.factor-lab-family label input,
+.factor-lab-switch input {
+  accent-color: var(--factor-blue);
+}
+
+.factor-lab-family label:hover,
+.factor-lab-family label.selected {
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.82) inset,
+    0 8px 22px rgba(0, 122, 255, 0.08);
+}
+
+.factor-lab-family label strong {
+  color: var(--factor-text);
+  font-weight: 600;
+}
+
+.factor-lab-weights,
+.factor-lab-safety,
+.factor-lab-history > div,
+.factor-lab-corr > b,
+.factor-lab-corr > span,
+.factor-lab-importance > div,
+.factor-lab-empty-chart {
+  border: 1px solid var(--factor-line);
+  border-radius: 8px;
+  background: var(--factor-control-bg);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.72) inset;
+}
+
+.factor-lab-weights {
+  display: grid;
+  gap: 6px;
+}
+
+.factor-lab-weights label {
+  margin-top: 0 !important;
+}
+
+.factor-lab-custom-row button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.factor-lab-custom-row button:hover {
+  background: rgba(120, 120, 128, 0.12);
+  color: var(--factor-red);
+}
+
+.factor-lab-tabs {
+  margin: 0 12px;
+  padding: 4px;
+  align-items: center;
+  border: 1px solid var(--factor-line);
+  border-radius: 8px;
+  background: rgba(120, 120, 128, 0.12);
+}
+
+.factor-lab-tabs button {
+  height: 32px;
+  border: 0;
+  border-radius: 7px;
+}
+
+.factor-lab-tabs button:hover {
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.factor-lab-tabs button.active {
+  border-bottom-color: transparent;
+  background: var(--factor-control-bg);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.72) inset;
+}
+
+.factor-lab-panel-head {
+  border-color: var(--factor-line);
+  background: rgba(255, 255, 255, 0.42);
+}
+
+.factor-lab-kpis article,
+.factor-lab-group-grid article,
+.factor-lab-model-summary div,
+.factor-lab-notes div {
+  min-height: 74px;
+}
+
+.factor-lab-legend span {
+  padding: 4px 7px;
+  border: 1px solid var(--factor-line);
+  border-radius: 999px;
+  background: var(--factor-chip-bg);
+}
+
+.factor-lab-legend i,
+.factor-lab-group-grid i,
+.factor-lab-importance i {
+  border-radius: 999px;
+}
+
+.factor-lab-table-wrap table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.factor-lab-table-wrap th {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(18px) saturate(160%);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+}
+
+.factor-lab-table-wrap th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.factor-lab-table-wrap th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.factor-lab-corr {
+  gap: 4px;
+}
+
+.factor-lab-corr > span {
+  border-color: color-mix(in srgb, var(--factor-blue) 22%, var(--factor-line));
+  background: color-mix(in srgb, var(--factor-blue) calc(var(--corr-opacity) * 70%), rgba(255, 255, 255, 0.78));
+}
+
+.factor-lab-corr > span.warn {
+  border-color: rgba(255, 159, 10, 0.34);
+  background: rgba(255, 159, 10, 0.12);
+  color: #9a6700;
+}
+
+.factor-lab-safety div {
+  align-items: start;
+}
+
+.factor-lab-safety i {
+  box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.1);
+}
+
+.factor-lab-history > div {
+  margin-top: 6px;
+  padding: 8px;
+}
+
+.factor-lab-error {
+  border-color: rgba(215, 0, 21, 0.24);
+  background: rgba(215, 0, 21, 0.08);
+  color: var(--factor-red);
+}
+
+@media (prefers-color-scheme: dark) {
+  .factor-lab-shell {
+    --factor-control-bg: rgba(44, 44, 46, 0.68);
+    --factor-control-hover: rgba(58, 58, 60, 0.84);
+    --factor-chip-bg: rgba(235, 235, 245, 0.08);
+  }
+
+  .factor-lab-tabs button:hover,
+  .factor-lab-panel-head,
+  .factor-lab-table-wrap th {
+    background: rgba(44, 44, 46, 0.68);
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .factor-lab-family label,
+  .factor-lab-weights,
+  .factor-lab-safety,
+  .factor-lab-history > div,
+  .factor-lab-corr > b,
+  .factor-lab-corr > span,
+  .factor-lab-importance > div,
+  .factor-lab-empty-chart {
+    background: var(--factor-surface);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+/* Premium liquid-glass factor lab: layout, charts and controls only. */
+.factor-lab-shell {
+  --factor-premium-glass: rgba(255, 255, 255, 0.72);
+  --factor-premium-line: rgba(255, 255, 255, 0.7);
+  --factor-premium-shadow: 0 24px 68px rgba(25, 58, 92, 0.14);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    conic-gradient(from 145deg at 78% 0%, rgba(0, 122, 255, 0.16), transparent 27%, rgba(48, 209, 88, 0.12), transparent 66%, rgba(255, 159, 10, 0.1)),
+    linear-gradient(125deg, #f8fbff 0%, #f2f8ff 48%, #f8fff9 100%);
+}
+
+.factor-lab-shell::before,
+.factor-lab-shell::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  z-index: 0;
+}
+
+.factor-lab-shell::before {
+  background:
+    linear-gradient(rgba(0, 122, 255, 0.042) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 122, 255, 0.034) 1px, transparent 1px),
+    repeating-linear-gradient(115deg, transparent 0 34px, rgba(255, 255, 255, 0.28) 35px 36px, transparent 37px 86px);
+  background-size: 88px 88px, 88px 88px, 720px 720px;
+  mask-image: linear-gradient(180deg, black, rgba(0, 0, 0, 0.7), transparent);
+  animation: factor-grid-drift 16s linear infinite;
+}
+
+.factor-lab-shell::after {
+  background:
+    linear-gradient(105deg, transparent 0 40%, rgba(255, 255, 255, 0.46) 48%, transparent 56% 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.54), transparent 34%);
+  opacity: 0.54;
+  transform: translate3d(-4%, -2%, 0);
+  animation: factor-light-sweep 8.5s cubic-bezier(0.77, 0, 0.175, 1) infinite alternate;
+}
+
+.factor-lab-header,
+.factor-lab-layout,
+.factor-lab-config,
+.factor-lab-main,
+.factor-lab-model {
+  position: relative;
+  z-index: 1;
+}
+
+.factor-lab-main {
+  overflow: hidden;
+  border-radius: 20px;
+  background:
+    linear-gradient(rgba(0, 122, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 122, 255, 0.028) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.28), rgba(0, 122, 255, 0.08));
+  background-size: 96px 96px, 96px 96px, auto;
+}
+
+.factor-lab-main::before {
+  position: absolute;
+  inset: 18% 8% auto;
+  height: 340px;
+  content: "";
+  pointer-events: none;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  border-radius: 26px;
+  background:
+    linear-gradient(120deg, transparent 0 18%, rgba(255, 255, 255, 0.42) 26%, transparent 36% 100%),
+    repeating-linear-gradient(90deg, rgba(0, 122, 255, 0.08) 0 10px, transparent 11px 38px),
+    linear-gradient(135deg, rgba(0, 122, 255, 0.12), rgba(48, 209, 88, 0.08));
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.72) inset,
+    0 34px 80px rgba(0, 122, 255, 0.08);
+  opacity: 0.28;
+  transform: perspective(1000px) rotateX(9deg) rotateY(-9deg);
+  animation: factor-main-display 5.8s ease-in-out infinite;
+}
+
+.factor-lab-main > * {
+  position: relative;
+  z-index: 1;
+}
+
+.factor-lab-header {
+  min-height: 118px;
+  border: 1px solid var(--factor-premium-line);
+  border-radius: 20px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.86), rgba(247, 251, 255, 0.56)),
+    var(--factor-premium-glass);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.96) inset,
+    0 -1px 0 rgba(0, 122, 255, 0.08) inset,
+    var(--factor-premium-shadow);
+  backdrop-filter: blur(30px) saturate(178%);
+  -webkit-backdrop-filter: blur(30px) saturate(178%);
+}
+
+.factor-lab-header::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  border-radius: inherit;
+  background:
+    repeating-linear-gradient(90deg, transparent 0 72px, rgba(0, 122, 255, 0.045) 73px 74px),
+    linear-gradient(110deg, rgba(255, 255, 255, 0.54), transparent 34%, rgba(48, 209, 88, 0.08) 100%);
+}
+
+.factor-lab-header > *,
+.factor-lab-header-actions {
+  position: relative;
+  z-index: 1;
+}
+
+.factor-lab-config,
+.factor-lab-model,
+.factor-lab-content > section,
+.factor-lab-intro,
+.factor-lab-error,
+.factor-lab-kpis article,
+.factor-lab-notes div,
+.factor-lab-group-grid article,
+.factor-lab-model-summary div,
+.factor-lab-trades,
+.factor-lab-history > div,
+.factor-lab-safety,
+.factor-lab-weights,
+.factor-lab-family label,
+.factor-lab-custom-row,
+.factor-lab-corr > b,
+.factor-lab-corr > span,
+.factor-lab-importance > div,
+.factor-lab-empty-chart {
+  position: relative;
+  overflow: hidden;
+  border-color: var(--factor-premium-line);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(247, 251, 255, 0.52)),
+    var(--factor-premium-glass);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.94) inset,
+    0 -1px 0 rgba(0, 122, 255, 0.08) inset,
+    0 18px 48px rgba(25, 58, 92, 0.11);
+  backdrop-filter: blur(26px) saturate(175%);
+  -webkit-backdrop-filter: blur(26px) saturate(175%);
+}
+
+.factor-lab-config,
+.factor-lab-model,
+.factor-lab-content > section,
+.factor-lab-intro {
+  border-radius: 18px;
+}
+
+.factor-lab-tabs {
+  position: sticky;
+  top: 10px;
+  z-index: 4;
+  border-color: rgba(255, 255, 255, 0.72);
+  border-radius: 16px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.78), rgba(248, 252, 255, 0.5));
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.94) inset,
+    0 14px 38px rgba(25, 58, 92, 0.12);
+  backdrop-filter: blur(24px) saturate(175%);
+  -webkit-backdrop-filter: blur(24px) saturate(175%);
+}
+
+.factor-lab-tabs button {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  transition:
+    transform 140ms cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 180ms cubic-bezier(0.23, 1, 0.32, 1),
+    background 180ms ease;
+}
+
+.factor-lab-tabs button.active {
+  color: #0057b8;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(229, 243, 255, 0.72));
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.96) inset,
+    0 10px 24px rgba(0, 122, 255, 0.14);
+}
+
+.factor-lab-tabs button.active::after {
+  position: absolute;
+  left: 16%;
+  right: 16%;
+  bottom: 4px;
+  height: 2px;
+  content: "";
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, #007aff, #30d158, transparent);
+}
+
+.factor-lab-header-actions button,
+.factor-lab-add,
+.factor-lab-section-title button,
+.factor-lab-custom-row button {
+  border-radius: 12px;
+  transition:
+    transform 140ms cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 180ms cubic-bezier(0.23, 1, 0.32, 1),
+    border-color 180ms ease,
+    background 180ms ease;
+}
+
+.factor-lab-header-actions button.primary,
+.factor-lab-add {
+  background: linear-gradient(145deg, #1487ff, #007aff);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.34) inset,
+    0 16px 36px rgba(0, 122, 255, 0.22);
+}
+
+.factor-lab-panel-head {
+  border-bottom-color: rgba(60, 60, 67, 0.12);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.24));
+}
+
+.factor-lab-kpis article::before,
+.factor-lab-content > section::before,
+.factor-lab-family label::before,
+.factor-lab-notes div::before,
+.factor-lab-model-summary div::before,
+.factor-lab-group-grid article::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background:
+    linear-gradient(120deg, rgba(0, 122, 255, 0.1), transparent 42%, rgba(48, 209, 88, 0.08)),
+    linear-gradient(105deg, transparent 0 36%, rgba(255, 255, 255, 0.72) 48%, transparent 62% 100%);
+  transform: translate3d(-120%, 0, 0);
+  opacity: 0.72;
+  animation: factor-card-sheen 6.8s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+}
+
+.factor-lab-kpis article > *,
+.factor-lab-content > section > *,
+.factor-lab-family label > *,
+.factor-lab-notes div > *,
+.factor-lab-model-summary div > *,
+.factor-lab-group-grid article > * {
+  position: relative;
+  z-index: 1;
+}
+
+.factor-lab-equity,
+.factor-lab-ic {
+  filter:
+    drop-shadow(0 14px 28px rgba(0, 122, 255, 0.12))
+    drop-shadow(0 0 18px rgba(48, 209, 88, 0.1));
+}
+
+.factor-lab-equity polyline,
+.factor-lab-ic polyline {
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 900;
+  animation: factor-chart-draw 1.8s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+.factor-lab-table-wrap {
+  border-radius: 16px;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.86) inset,
+    0 18px 42px rgba(25, 58, 92, 0.1);
+}
+
+.factor-lab-table-wrap th {
+  position: sticky;
+  top: 54px;
+  z-index: 3;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(246, 250, 255, 0.72));
+}
+
+.factor-lab-corr > span {
+  transition:
+    transform 160ms cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 180ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .factor-lab-family label:hover,
+  .factor-lab-kpis article:hover,
+  .factor-lab-content > section:hover,
+  .factor-lab-notes div:hover,
+  .factor-lab-model-summary div:hover,
+  .factor-lab-group-grid article:hover,
+  .factor-lab-history > div:hover {
+    transform: translate3d(0, -3px, 0);
+    border-color: rgba(0, 122, 255, 0.28);
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.96) inset,
+      0 30px 74px rgba(25, 58, 92, 0.16);
+  }
+
+  .factor-lab-corr > span:hover {
+    transform: scale(1.04);
+    box-shadow: 0 12px 28px rgba(0, 122, 255, 0.14);
+  }
+}
+
+@keyframes factor-grid-drift {
+  from {
+    background-position: 0 0, 0 0, -180px 0;
+  }
+  to {
+    background-position: 88px 176px, 176px 88px, 180px 0;
+  }
+}
+
+@keyframes factor-light-sweep {
+  from {
+    transform: translate3d(-4%, -2%, 0);
+  }
+  to {
+    transform: translate3d(4%, 2%, 0);
+  }
+}
+
+@keyframes factor-card-sheen {
+  0%, 44% {
+    transform: translate3d(-120%, 0, 0);
+  }
+  72%, 100% {
+    transform: translate3d(120%, 0, 0);
+  }
+}
+
+@keyframes factor-chart-draw {
+  from {
+    stroke-dashoffset: 900;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes factor-main-display {
+  0%, 100% {
+    transform: perspective(1000px) rotateX(9deg) rotateY(-9deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: perspective(1000px) rotateX(8deg) rotateY(-7deg) translate3d(0, -8px, 0);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .factor-lab-shell {
+    --factor-premium-glass: rgba(31, 31, 34, 0.72);
+    --factor-premium-line: rgba(255, 255, 255, 0.13);
+    background:
+      conic-gradient(from 145deg at 78% 0%, rgba(0, 122, 255, 0.14), transparent 27%, rgba(48, 209, 88, 0.1), transparent 66%, rgba(255, 159, 10, 0.08)),
+      linear-gradient(125deg, #111827 0%, #101820 48%, #132018 100%);
+  }
+
+  .factor-lab-header,
+  .factor-lab-config,
+  .factor-lab-model,
+  .factor-lab-content > section,
+  .factor-lab-intro,
+  .factor-lab-error,
+  .factor-lab-kpis article,
+  .factor-lab-notes div,
+  .factor-lab-group-grid article,
+  .factor-lab-model-summary div,
+  .factor-lab-trades,
+  .factor-lab-history > div,
+  .factor-lab-safety,
+  .factor-lab-weights,
+  .factor-lab-family label,
+  .factor-lab-custom-row,
+  .factor-lab-corr > b,
+  .factor-lab-corr > span,
+  .factor-lab-importance > div,
+  .factor-lab-empty-chart,
+  .factor-lab-tabs {
+    background:
+      linear-gradient(145deg, rgba(58, 58, 62, 0.76), rgba(31, 31, 34, 0.58)),
+      var(--factor-premium-glass);
+  }
+}
+
+@media (max-width: 900px) {
+  .factor-lab-header,
+  .factor-lab-config,
+  .factor-lab-model,
+  .factor-lab-content > section,
+  .factor-lab-intro {
+    border-radius: 14px;
+  }
+
+  .factor-lab-tabs {
+    top: 6px;
+    overflow-x: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .factor-lab-shell::before,
+  .factor-lab-shell::after,
+  .factor-lab-kpis article::before,
+  .factor-lab-content > section::before,
+  .factor-lab-family label::before,
+  .factor-lab-notes div::before,
+  .factor-lab-model-summary div::before,
+  .factor-lab-group-grid article::before,
+  .factor-lab-equity polyline,
+  .factor-lab-ic polyline,
+  .factor-lab-main::before {
+    animation: none !important;
+  }
+}

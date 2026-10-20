@@ -1,0 +1,13 @@
+# 构建上下文瘦身：data/ 与 work/ 由 compose 挂载，但镜像里也要内置一份，所以不排除
+node_modules
+.next
+.venv
+venv
+.git
+.github
+docs
+**/__pycache__
+**/*.pyc
+.DS_Store
+*.log
+*.tsbuildinfo

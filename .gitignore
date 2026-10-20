@@ -1,0 +1,22 @@
+# 依赖与构建产物
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 真实密钥文件（只提交 *.example）
+.env
+.env.*
+!.env.example
+config/.env.ai
+
+# 运行时产物
+work/quantweave/runs/*
+!work/quantweave/runs/.gitkeep
+*.log
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
